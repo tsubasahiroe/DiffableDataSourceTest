@@ -15,6 +15,8 @@
 		8D72922F2536EFA200913B3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D72922D2536EFA200913B3A /* LaunchScreen.storyboard */; };
 		8D72923A2536EFA200913B3A /* DiffableDataSourceTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7292392536EFA200913B3A /* DiffableDataSourceTestTests.swift */; };
 		8D7292452536EFA200913B3A /* DiffableDataSourceTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7292442536EFA200913B3A /* DiffableDataSourceTestUITests.swift */; };
+		8D72925A2536F80900913B3A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7292582536F80900913B3A /* DetailViewController.swift */; };
+		8D72925B2536F80900913B3A /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D7292592536F80900913B3A /* DetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		8D7292402536EFA200913B3A /* DiffableDataSourceTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiffableDataSourceTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D7292442536EFA200913B3A /* DiffableDataSourceTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffableDataSourceTestUITests.swift; sourceTree = "<group>"; };
 		8D7292462536EFA200913B3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D7292582536F80900913B3A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		8D7292592536F80900913B3A /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				8D7292222536EFA100913B3A /* AppDelegate.swift */,
 				8D7292242536EFA100913B3A /* SceneDelegate.swift */,
 				8D7292262536EFA100913B3A /* ViewController.swift */,
+				8D7292582536F80900913B3A /* DetailViewController.swift */,
+				8D7292592536F80900913B3A /* DetailViewController.xib */,
 				8D7292282536EFA100913B3A /* Main.storyboard */,
 				8D72922B2536EFA200913B3A /* Assets.xcassets */,
 				8D72922D2536EFA200913B3A /* LaunchScreen.storyboard */,
@@ -234,6 +240,7 @@
 				8D72922F2536EFA200913B3A /* LaunchScreen.storyboard in Resources */,
 				8D72922C2536EFA200913B3A /* Assets.xcassets in Resources */,
 				8D72922A2536EFA100913B3A /* Main.storyboard in Resources */,
+				8D72925B2536F80900913B3A /* DetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +268,7 @@
 				8D7292272536EFA100913B3A /* ViewController.swift in Sources */,
 				8D7292232536EFA100913B3A /* AppDelegate.swift in Sources */,
 				8D7292252536EFA100913B3A /* SceneDelegate.swift in Sources */,
+				8D72925A2536F80900913B3A /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
